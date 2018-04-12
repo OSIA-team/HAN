@@ -1,0 +1,48 @@
+body,html{
+  background: #343233;
+  color: #efdab9;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body{
+  font-family: 'Roboto';
+}
+
+/* outputspokenform*/
+#youSaid{
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+.spokenForm{
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+}
+
+/* konec outputspokenform */
+
+/*result*/
+
+.results{
+  position: fixed;
+  width:100%;
+  height: 100%;
+}
+#textResult{
+    font-weight: 300;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*konec result**/
+
+
+h5{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 100;
+}
