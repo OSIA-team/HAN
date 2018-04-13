@@ -23,9 +23,7 @@ localhost/HAN/index.html
 ```
 Allow browser to use a microphone on this site (if needed)
 
-4) Refresh the page
-
-5) Here we go, have a fun. You can use HAN how you please. If you want to use voice commands check section with available commands
+4) Here we go, have a fun. You can use HAN how you please. If you want to use voice commands check section with available commands
 
 ## Available Voice Commands
 First of all you can say hi to HAN by 
