@@ -10,7 +10,7 @@ if (annyang) {
 
   var wiki = function(tag){
     var output= "output";
-    $.getJSON('https://cs.wikipedia.org/w/api.php?format=json&action=query&indexpageids=&prop=extracts&exintro=&explaintext=&titles='+tag, function(data) {
+    $.getJSON("https://cs.wikipedia.org/w/api.php?format=json&action=query&indexpageids=&prop=extracts&exintro=&explaintext=&origin=*&titles="+tag, function(data) {
       var pageId = data.query.pageids;
         output = "<h2>"+data.query.pages[pageId].title+"</h2>";
         output += "<p>"+data.query.pages[pageId].extract+"</p>";
@@ -47,6 +47,7 @@ if (annyang) {
   });
   // Start listening. You can call this here, or attach this call to an event, button, etc.
   annyang.start();
+
 } else {
   alert('this browser doesnt support SpeechRecogantion! use Chrome or Firefox')
 }
