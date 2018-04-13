@@ -10,11 +10,7 @@ if (annyang) {
 
   var wiki = function(tag){
     var output= "output";
-<<<<<<< HEAD
-    $.getJSON("https://cs.wikipedia.org/w/api.php?format=json&action=query&indexpageids=&prop=extracts&exintro=&explaintext=&origin=*&titles="+tag, function(data) {
-=======
      $.getJSON("https://cs.wikipedia.org/w/api.php?format=json&action=query&indexpageids=&prop=extracts&exintro=&explaintext=&origin=*&titles="+tag, function(data) {
->>>>>>> 80b67aecb79dc6bdf2e8147e4b6983a40960b453
       var pageId = data.query.pageids;
         output = "<h2>"+data.query.pages[pageId].title+"</h2>";
         output += "<p>"+data.query.pages[pageId].extract+"</p>";
