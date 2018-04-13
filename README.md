@@ -3,6 +3,7 @@ HAN - Home Assistant for Nerds
 
 There is only Czech language mutation
 
+There is testing [demo](https://osia-team.github.io/HAN/)
 ## Functions
 * Voice Control
 * Wiki definitions API based on Voice command
