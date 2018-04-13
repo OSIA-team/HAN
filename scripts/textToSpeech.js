@@ -12,3 +12,7 @@ function say(msgToHear){
   speechSynthesis.speak(msg);
 
 }
+
+function shutUp(){
+  window.speechSynthesis.cancel();
+}

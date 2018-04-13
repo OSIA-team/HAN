@@ -14,10 +14,15 @@ if (annyang) {
       var pageId = data.query.pageids;
         output = "<h2>"+data.query.pages[pageId].title+"</h2>";
         output += "<p>"+data.query.pages[pageId].extract+"</p>";
+        say(data.query.pages[pageId].extract);
         document.getElementById('textResult').innerHTML = output;
     });
   };
 
+  var stopTalking = function(){
+    shutUp();
+    console.log('talking stopped');
+  }
 
   // define our commands.
   // * The key is the phrase you want your users to say.
@@ -25,7 +30,8 @@ if (annyang) {
   //   You can pass a function, a function name (as a string), or write your function as part of the commands object.
   var commands = {
     'hello':        hello,
-    'define *tag':      wiki//,
+    'tell me (more) about *tag':      wiki,
+    'thank you':      stopTalking
     //'show :type report':    showTPS,
     //'let\'s get started':   getStarted,
   };
