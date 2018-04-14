@@ -1,7 +1,7 @@
 # HAN
 HAN - Home Assistant for Nerds
 
-There is only Czech language mutation
+There is only english language version
 
 There is testing [demo](https://osia-team.github.io/HAN/)
 ## Functions
@@ -28,9 +28,9 @@ Allow browser to use a microphone on this site (if needed)
 
 ## Available Voice Commands
 First of all you can say hi to HAN by
-  * Ahoj
+  * Hello
 
-You can search WIKI for definitions by command: "definuj [stuf you want to search]" for exapmle:
-  * definuj Česko
+You can search WIKI for definitions by command: "tell me about [stuf you want to search]" for exapmle:
+  * Tell me about Czech Republic
 
-This voice command returns wiki definition (first perex) of Česko on [czech mutation of wiki](https://cs.wikipedia.org/wiki/%C4%8Cesko)
+This voice command returns wiki definition (first perex) of [english mutation of wiki](https://cs.wikipedia.org/wiki/%C4%8Cesko)

@@ -11,16 +11,16 @@ body{
 
 /* outputspokenform*/
 #youSaid{
-    max-width: 250px;
-    margin: 0 auto;
-    text-align: center;
+    margin-left: 7px;
     font-weight: 300;
 }
 
 .spokenForm{
     position: fixed;
-    bottom: 10%;
+    bottom: 3%;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /* konec outputspokenform */

@@ -31,9 +31,9 @@ if (annyang) {
   var commands = {
     'hello':        hello,
     'tell me (more) about *tag':      wiki,
-    'thank you':      stopTalking
-    //'show :type report':    showTPS,
-    //'let\'s get started':   getStarted,
+    'stop':      stopTalking,
+    'shut up':      stopTalking
+
   };
 
   // OPTIONAL: activate debug mode for detailed logging in the console
