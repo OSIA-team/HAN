@@ -1,5 +1,6 @@
 # HAN
 HAN - Home Assistant for Nerds
+Feel free to contribute with me! Just send  a pull reuqest! 
 
 There is only english language version
 
