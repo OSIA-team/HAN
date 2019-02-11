@@ -4,7 +4,7 @@ Feel free to contribute with me! Just send  a pull reuqest!
 
 There is only english language version
 
-There is testing [demo](https://osia-team.github.io/HAN/)
+There is testing [demo](https://patriksafar.github.io/HAN/)
 ## Functions
 * Voice Control
 * Wiki definitions API based on Voice command
